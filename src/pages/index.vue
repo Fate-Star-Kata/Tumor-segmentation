@@ -6,13 +6,13 @@
       <div class="text-center space-y-6 mb-8">
         <RevealMotion :delay="0">
           <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
-            赫兹系统
+            肝肿瘤分割系统
           </h1>
         </RevealMotion>
 
         <RevealMotion :delay="0.1">
           <p class="text-lg md:text-xl opacity-70">
-            项目介绍
+            基于深度学习的肝脏肿瘤智能分割与诊断辅助平台
           </p>
         </RevealMotion>
 
@@ -113,14 +113,14 @@ const RevealMotion = defineComponent<RevealProps>({
   },
 });
 
-// 文案内容：保持中性，便于替换
+// 肿瘤分割系统功能特性
 const features = [
-  { title: "极简设计", desc: "去除干扰，聚焦信息与层次。" },
-  { title: "响应布局", desc: "桌面/移动端一致的体验。" },
-  { title: "即插即用", desc: "替换文字与链接即可上线。" },
-  { title: "轻量动画", desc: "只在需要处出现的动效。" },
-  { title: "DaisyUI 组件", desc: "开箱即用的优雅样式。" },
-  { title: "Tailwind 原子化", desc: "一致、可维护的样式体系。" },
+  { title: "智能分割", desc: "基于YOLO模型的高精度肿瘤分割。" },
+  { title: "实时分析", desc: "快速处理医学影像并生成分析报告。" },
+  { title: "数据统计", desc: "完整的分割历史记录与统计分析。" },
+  { title: "模型管理", desc: "灵活的模型配置与性能监控。" },
+  { title: "可视化结果", desc: "直观的分割掩码与叠加图像展示。" },
+  { title: "诊断辅助", desc: "提供肿瘤面积比例等关键指标。" },
 ];
 </script>
 
